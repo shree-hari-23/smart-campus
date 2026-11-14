@@ -1,0 +1,50 @@
+# PACD-RAG Smart Campus Intelligence Platform
+# Core Dependencies
+
+# Web Framework & Async Server
+fastapi>=0.110.0
+uvicorn>=0.28.0
+starlette>=0.36.0
+pydantic>=2.0.0
+requests>=2.31.0
+httpx>=0.27.0
+python-multipart>=0.0.9
+
+# Google Gemini AI SDK
+google-generativeai>=0.8.0
+google-genai>=0.1.0
+
+# Machine Learning & Ensemble
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+catboost>=1.2.0
+shap>=0.44.0
+joblib>=1.3.0
+pandas>=2.0.0
+numpy>=1.24.0
+ucimlrepo>=0.0.7
+
+# Knowledge Graph & Network Analysis
+networkx>=3.0.0
+
+# Vector Database & Embeddings
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+
+# Document & Material Processing
+pypdf>=4.0.0
+python-pptx>=0.6.21
+python-docx>=1.0.0
+reportlab>=4.0.0
+
+# Authentication & Security
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+bcrypt>=4.0.0
+
+# Environment Configuration
+python-dotenv>=1.0.0
+
+# Visualisation & Plotting
+matplotlib>=3.7.0
+seaborn>=0.12.0
